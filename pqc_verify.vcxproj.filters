@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kyber_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kyber_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="verify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="randombytes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kyber_symmetric-shake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kyber_reduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kyber_poly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kyber_ntt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="indcpa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kyber_polyvec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cbd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fips202.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ntt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="packing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="poly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="polyvec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rounding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symmetric-shake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dil_kyb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="verify_extract.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kyber_pk.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="kyber_sk.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kyber_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="verify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kyber_symmetric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kyber_reduce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kyber_polyvec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kyber_poly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kyber_ntt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indcpa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kyber_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fips202.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ntt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="poly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="polyvec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="randombytes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reduce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rounding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symmetric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
